@@ -6,14 +6,14 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Data Retrieval">3ef8ba29db741490b8ae8d7e13961923</category>
+        <category display_value="Update Linux">03dea6fddbbc5490b8ae8d7e139619e1</category>
         <copied_from>32097a29db741490b8ae8d7e139619fc</copied_from>
         <copied_from_name>RHEL Get Running Services</copied_from_name>
         <description/>
         <ih_action>true</ih_action>
         <internal_name>rhel_stopstart_services</internal_name>
         <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛action","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛svcName","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Stop/Start Services➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Stop/Start Services➛Error Message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>41ba6761dbb81490b8ae8d7e139619e6</latest_snapshot>
+        <latest_snapshot>70feaafddbbc5490b8ae8d7e139619da</latest_snapshot>
         <master_snapshot>47affe25dbb41490b8ae8d7e139619e7</master_snapshot>
         <name>RHEL Stop/Start Services</name>
         <natlang/>
@@ -25,7 +25,7 @@
         <sys_created_on>2020-05-15 19:33:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>531dba21dbb41490b8ae8d7e139619c2</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>RHEL Stop/Start Services</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_531dba21dbb41490b8ae8d7e139619c2</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:53:05</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -889,14 +889,14 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 19:33:52</sys_created_on>
         <sys_id>f31dfa21dbb41490b8ae8d7e1396191a</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:58</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1055,14 +1055,14 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 19:33:52</sys_created_on>
         <sys_id>ff1dfa21dbb41490b8ae8d7e13961927</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1578,7 +1578,7 @@ fi</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=531dba21dbb41490b8ae8d7e139619c2^sys_idNOT IN20ba6761dbb81490b8ae8d7e1396193c,24ba6761dbb81490b8ae8d7e1396193b,28ba6761dbb81490b8ae8d7e1396193a,60ba6761dbb81490b8ae8d7e1396193a,60ba6761dbb81490b8ae8d7e1396193b,6cba6761dbb81490b8ae8d7e1396193b,a4ba6761dbb81490b8ae8d7e1396193c,a8ba6761dbb81490b8ae8d7e1396193b,acba6761dbb81490b8ae8d7e1396193a,e0ba6761dbb81490b8ae8d7e1396193c,e4ba6761dbb81490b8ae8d7e1396193b,e8ba6761dbb81490b8ae8d7e1396193a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=531dba21dbb41490b8ae8d7e139619c2^sys_idNOT IN20ba6761dbb81490b8ae8d7e1396193c,24ba6761dbb81490b8ae8d7e1396193b,28ba6761dbb81490b8ae8d7e1396193a,31ee2afddbbc5490b8ae8d7e1396198d,35ee2afddbbc5490b8ae8d7e1396198c,3dee2afddbbc5490b8ae8d7e1396198d,60ba6761dbb81490b8ae8d7e1396193a,60ba6761dbb81490b8ae8d7e1396193b,75ee2afddbbc5490b8ae8d7e1396198e,79ee2afddbbc5490b8ae8d7e1396198d,7dee2afddbbc5490b8ae8d7e1396198c,a4ba6761dbb81490b8ae8d7e1396193c,b1ee2afddbbc5490b8ae8d7e1396198e,b5ee2afddbbc5490b8ae8d7e1396198d,b9ee2afddbbc5490b8ae8d7e1396198c,f1ee2afddbbc5490b8ae8d7e1396198d,f5ee2afddbbc5490b8ae8d7e1396198c,fdee2afddbbc5490b8ae8d7e1396198d"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
         <extra_info/>
@@ -1588,10 +1588,10 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:59</sys_created_on>
         <sys_id>20ba6761dbb81490b8ae8d7e1396193c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
@@ -1605,10 +1605,10 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:59</sys_created_on>
         <sys_id>24ba6761dbb81490b8ae8d7e1396193b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</ui_id>
@@ -1622,13 +1622,64 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:59</sys_created_on>
         <sys_id>28ba6761dbb81490b8ae8d7e1396193a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>31ee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>35ee2afddbbc5490b8ae8d7e1396198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>0a8452ed-ff70-4c55-b798-d2b4eb9aaba5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>3dee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
@@ -1639,10 +1690,10 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:59</sys_created_on>
         <sys_id>60ba6761dbb81490b8ae8d7e1396193a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>0a8452ed-ff70-4c55-b798-d2b4eb9aaba5</ui_id>
@@ -1656,30 +1707,13 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:59</sys_created_on>
         <sys_id>60ba6761dbb81490b8ae8d7e1396193b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
-    </sys_hub_pill_compound>
-    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
-        <extra_info/>
-        <order>0</order>
-        <prescription>{{action.action}}</prescription>
-        <source_ui_id/>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>6cba6761dbb81490b8ae8d7e1396193b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
-        <transform_compositions>[]</transform_compositions>
-        <transform_definition_id/>
-        <ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
@@ -1688,12 +1722,12 @@ fi</value>
         <prescription/>
         <source_ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</source_ui_id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>a4ba6761dbb81490b8ae8d7e1396193c</sys_id>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>75ee2afddbbc5490b8ae8d7e1396198e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>6a36829d-97a3-4d78-bd5e-0256378ebf98</ui_id>
@@ -1705,63 +1739,12 @@ fi</value>
         <prescription>{{action.svcname}}</prescription>
         <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>a8ba6761dbb81490b8ae8d7e1396193b</sys_id>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>79ee2afddbbc5490b8ae8d7e1396198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
-        <transform_compositions>[]</transform_compositions>
-        <transform_definition_id/>
-        <ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</ui_id>
-    </sys_hub_pill_compound>
-    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
-        <extra_info/>
-        <order>1</order>
-        <prescription/>
-        <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>acba6761dbb81490b8ae8d7e1396193a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
-        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
-        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
-        <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
-    </sys_hub_pill_compound>
-    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
-        <extra_info/>
-        <order>1</order>
-        <prescription/>
-        <source_ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</source_ui_id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>e0ba6761dbb81490b8ae8d7e1396193c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
-        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
-        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
-        <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
-    </sys_hub_pill_compound>
-    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
-        <extra_info/>
-        <order>0</order>
-        <prescription>{{action.svcname}}</prescription>
-        <source_ui_id/>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>e4ba6761dbb81490b8ae8d7e1396193b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</ui_id>
@@ -1773,15 +1756,134 @@ fi</value>
         <prescription>{{action.svcname}}</prescription>
         <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
-        <sys_id>e8ba6761dbb81490b8ae8d7e1396193a</sys_id>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>7dee2afddbbc5490b8ae8d7e1396198c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:59</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
+        <sys_id>a4ba6761dbb81490b8ae8d7e1396193c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:22</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>6a36829d-97a3-4d78-bd5e-0256378ebf98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>b1ee2afddbbc5490b8ae8d7e1396198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>b5ee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>b9ee2afddbbc5490b8ae8d7e1396198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>f1ee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>f5ee2afddbbc5490b8ae8d7e1396198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>531dba21dbb41490b8ae8d7e139619c2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>fdee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</ui_id>
     </sys_hub_pill_compound>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_531dba21dbb41490b8ae8d7e139619c2^sys_idNOT IN1f1dba21dbb41490b8ae8d7e139619ce,369ffa25dbb41490b8ae8d7e1396199d,3e9f3e25dbb41490b8ae8d7e139619c1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1927,13 +2029,13 @@ fi</value>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="RHEL Stop/Start Services">531dba21dbb41490b8ae8d7e139619c2</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c0bf7265dbb41490b8ae8d7e13961964","name":"plan"}}</plan>
-        <snapshot>41ba6761dbb81490b8ae8d7e139619e6</snapshot>
+        <snapshot>70feaafddbbc5490b8ae8d7e139619da</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 19:45:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>c0bf7265dbb41490b8ae8d7e13961964</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1941,7 +2043,7 @@ fi</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:53:07</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:35</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1949,7 +2051,7 @@ fi</value>
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Data Retrieval">3ef8ba29db741490b8ae8d7e13961923</category>
+        <category display_value="Update Linux">03dea6fddbbc5490b8ae8d7e139619e1</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -1966,7 +2068,7 @@ fi</value>
         <sys_created_on>2020-05-15 19:45:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>47affe25dbb41490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1974,7 +2076,7 @@ fi</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 19:45:00</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2830,14 +2932,14 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 19:45:02</sys_created_on>
         <sys_id>13af3265dbb41490b8ae8d7e1396191f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:53:04</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2996,14 +3098,14 @@ fi</value>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 19:45:02</sys_created_on>
         <sys_id>2baf3265dbb41490b8ae8d7e1396192c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:53:05</sys_updated_on>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3519,7 +3621,7 @@ fi</value>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=47affe25dbb41490b8ae8d7e139619e7^sys_idNOT IN203aa321dbb81490b8ae8d7e13961964,243aa321dbb81490b8ae8d7e13961963,283aa321dbb81490b8ae8d7e13961962,31baa761dbb81490b8ae8d7e1396199b,31c92beddb781490b8ae8d7e13961905,35baa761dbb81490b8ae8d7e1396199a,35c92beddb781490b8ae8d7e13961904,39baa761dbb81490b8ae8d7e13961999,3dc92beddb781490b8ae8d7e13961905,603aa321dbb81490b8ae8d7e13961963,643aa321dbb81490b8ae8d7e13961962,6c3aa321dbb81490b8ae8d7e13961963,71baa761dbb81490b8ae8d7e1396199a,71c92beddb781490b8ae8d7e13961904,75baa761dbb81490b8ae8d7e13961999,79c92beddb781490b8ae8d7e13961905,7dbaa761dbb81490b8ae8d7e1396199a,7dc92beddb781490b8ae8d7e13961904,a03aa321dbb81490b8ae8d7e13961962,a83aa321dbb81490b8ae8d7e13961963,ac3aa321dbb81490b8ae8d7e13961962,b1baa761dbb81490b8ae8d7e13961999,b5c92beddb781490b8ae8d7e13961905,b9baa761dbb81490b8ae8d7e1396199a,b9c92beddb781490b8ae8d7e13961904,bdbaa761dbb81490b8ae8d7e13961999,bdc92beddb781490b8ae8d7e13961903,e03aa321dbb81490b8ae8d7e13961964,e43aa321dbb81490b8ae8d7e13961963,e83aa321dbb81490b8ae8d7e13961962,f1c92beddb781490b8ae8d7e13961905,f5baa761dbb81490b8ae8d7e1396199a,f5c92beddb781490b8ae8d7e13961904,f9baa761dbb81490b8ae8d7e13961999,fdbaa761dbb81490b8ae8d7e13961998,fdc92beddb781490b8ae8d7e13961905"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=47affe25dbb41490b8ae8d7e139619e7^sys_idNOT IN203aa321dbb81490b8ae8d7e13961964,21feeafddbbc5490b8ae8d7e139619b2,243aa321dbb81490b8ae8d7e13961963,25feeafddbbc5490b8ae8d7e139619b1,283aa321dbb81490b8ae8d7e13961962,2dfeeafddbbc5490b8ae8d7e139619b2,31baa761dbb81490b8ae8d7e1396199b,31c92beddb781490b8ae8d7e13961905,35baa761dbb81490b8ae8d7e1396199a,35c92beddb781490b8ae8d7e13961904,39baa761dbb81490b8ae8d7e13961999,3dc92beddb781490b8ae8d7e13961905,603aa321dbb81490b8ae8d7e13961963,61feeafddbbc5490b8ae8d7e139619b1,643aa321dbb81490b8ae8d7e13961962,69feeafddbbc5490b8ae8d7e139619b2,6c3aa321dbb81490b8ae8d7e13961963,6dfeeafddbbc5490b8ae8d7e139619b1,71baa761dbb81490b8ae8d7e1396199a,71c92beddb781490b8ae8d7e13961904,75baa761dbb81490b8ae8d7e13961999,79c92beddb781490b8ae8d7e13961905,7dbaa761dbb81490b8ae8d7e1396199a,7dc92beddb781490b8ae8d7e13961904,a03aa321dbb81490b8ae8d7e13961962,a5feeafddbbc5490b8ae8d7e139619b2,a83aa321dbb81490b8ae8d7e13961963,a9feeafddbbc5490b8ae8d7e139619b1,ac3aa321dbb81490b8ae8d7e13961962,adfeeafddbbc5490b8ae8d7e139619b0,b1baa761dbb81490b8ae8d7e13961999,b5c92beddb781490b8ae8d7e13961905,b9baa761dbb81490b8ae8d7e1396199a,b9c92beddb781490b8ae8d7e13961904,bdbaa761dbb81490b8ae8d7e13961999,bdc92beddb781490b8ae8d7e13961903,e03aa321dbb81490b8ae8d7e13961964,e1feeafddbbc5490b8ae8d7e139619b2,e43aa321dbb81490b8ae8d7e13961963,e5feeafddbbc5490b8ae8d7e139619b1,e83aa321dbb81490b8ae8d7e13961962,edfeeafddbbc5490b8ae8d7e139619b2,f1c92beddb781490b8ae8d7e13961905,f5baa761dbb81490b8ae8d7e1396199a,f5c92beddb781490b8ae8d7e13961904,f9baa761dbb81490b8ae8d7e13961999,fdbaa761dbb81490b8ae8d7e13961998,fdc92beddb781490b8ae8d7e13961905"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
         <extra_info/>
@@ -3536,6 +3638,23 @@ fi</value>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>21feeafddbbc5490b8ae8d7e139619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
@@ -3561,6 +3680,23 @@ fi</value>
         <prescription>{{action.svcname}}</prescription>
         <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>25feeafddbbc5490b8ae8d7e139619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:50:48</sys_created_on>
         <sys_id>283aa321dbb81490b8ae8d7e13961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -3570,6 +3706,23 @@ fi</value>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>2dfeeafddbbc5490b8ae8d7e139619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
@@ -3697,6 +3850,23 @@ fi</value>
         <prescription>{{action.action}}</prescription>
         <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>61feeafddbbc5490b8ae8d7e139619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:50:48</sys_created_on>
         <sys_id>643aa321dbb81490b8ae8d7e13961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -3706,6 +3876,23 @@ fi</value>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>69feeafddbbc5490b8ae8d7e139619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
@@ -3723,6 +3910,23 @@ fi</value>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>6dfeeafddbbc5490b8ae8d7e139619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
@@ -3846,6 +4050,23 @@ fi</value>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
         <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>a5feeafddbbc5490b8ae8d7e139619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
         <order>0</order>
         <prescription>{{action.action}}</prescription>
         <source_ui_id/>
@@ -3867,6 +4088,23 @@ fi</value>
         <prescription/>
         <source_ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</source_ui_id>
         <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>a9feeafddbbc5490b8ae8d7e139619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:50:48</sys_created_on>
         <sys_id>ac3aa321dbb81490b8ae8d7e13961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -3876,6 +4114,23 @@ fi</value>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>adfeeafddbbc5490b8ae8d7e139619b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>0a8452ed-ff70-4c55-b798-d2b4eb9aaba5</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
@@ -4003,6 +4258,23 @@ fi</value>
         <prescription>{{action.svcname}}</prescription>
         <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>e1feeafddbbc5490b8ae8d7e139619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:50:48</sys_created_on>
         <sys_id>e43aa321dbb81490b8ae8d7e13961963</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -4020,6 +4292,23 @@ fi</value>
         <prescription/>
         <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
         <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>e5feeafddbbc5490b8ae8d7e139619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:50:48</sys_created_on>
         <sys_id>e83aa321dbb81490b8ae8d7e13961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -4029,6 +4318,23 @@ fi</value>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:29</sys_created_on>
+        <sys_id>edfeeafddbbc5490b8ae8d7e139619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:31</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>6a36829d-97a3-4d78-bd5e-0256378ebf98</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>47affe25dbb41490b8ae8d7e139619e7</attached_to>

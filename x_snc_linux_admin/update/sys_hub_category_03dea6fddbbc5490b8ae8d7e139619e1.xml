@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Update Linux</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:07</sys_created_on>
+        <sys_id>03dea6fddbbc5490b8ae8d7e139619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Linux</sys_name>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name>sys_hub_category_03dea6fddbbc5490b8ae8d7e139619e1</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-16 13:10:07</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=03dea6fddbbc5490b8ae8d7e139619e1"/>
+</record_update>
