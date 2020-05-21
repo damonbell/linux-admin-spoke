@@ -7,78 +7,78 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Data Retrieval">3ef8ba29db741490b8ae8d7e13961923</category>
-        <copied_from>531dba21dbb41490b8ae8d7e139619c2</copied_from>
-        <copied_from_name>RHEL Stop/Start Services</copied_from_name>
-        <description/>
+        <copied_from>edcee2fddbbc5490b8ae8d7e1396190f</copied_from>
+        <copied_from_name>Run Top</copied_from_name>
+        <description>Run df -k on a Linux server</description>
         <ih_action>true</ih_action>
-        <internal_name>run_top</internal_name>
-        <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛action","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛svcName","type":"action","ref":""},{"name":"{{action.parameters}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{action.parms}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Run Top➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Run Top➛Error Message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>2ff8116fdbf81010b8ae8d7e139619f6</latest_snapshot>
-        <master_snapshot>633f6631dbfc5490b8ae8d7e139619cb</master_snapshot>
-        <name>Run Top</name>
+        <internal_name>show_disk_space</internal_name>
+        <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛action","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛svcName","type":"action","ref":""},{"name":"{{action.parameters}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{action.parms}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Run df➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Run df➛Error Message","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>fae85d2fdbf81010b8ae8d7e139619fa</latest_snapshot>
+        <master_snapshot>97e89d2fdbf81010b8ae8d7e13961968</master_snapshot>
+        <name>Show Disk Space</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:40</sys_created_on>
+        <sys_created_on>2020-05-21 17:20:35</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>edcee2fddbbc5490b8ae8d7e1396190f</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>Run Top</sys_name>
+        <sys_id>712859ebdbf81010b8ae8d7e13961927</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Show Disk Space</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name>sys_hub_action_type_definition_edcee2fddbbc5490b8ae8d7e1396190f</sys_update_name>
+        <sys_update_name>sys_hub_action_type_definition_712859ebdbf81010b8ae8d7e13961927</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:19</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=edcee2fddbbc5490b8ae8d7e1396190f"/>
-    <sys_variable_value action="delete_multiple" query="document_key=edcee2fddbbc5490b8ae8d7e1396190f"/>
-    <sys_element_mapping action="delete_multiple" query="id=edcee2fddbbc5490b8ae8d7e1396190f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=712859ebdbf81010b8ae8d7e13961927"/>
+    <sys_variable_value action="delete_multiple" query="document_key=712859ebdbf81010b8ae8d7e13961927"/>
+    <sys_element_mapping action="delete_multiple" query="id=712859ebdbf81010b8ae8d7e13961927"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error</field>
-        <id>edcee2fddbbc5490b8ae8d7e1396190f</id>
+        <id>712859ebdbf81010b8ae8d7e13961927</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:44</sys_created_on>
-        <sys_id>aace26fddbbc5490b8ae8d7e13961917</sys_id>
+        <sys_created_on>2020-05-21 17:20:39</sys_created_on>
+        <sys_id>762899ebdbf81010b8ae8d7e139619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</table>
+        <sys_updated_on>2020-05-21 17:20:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>formatresults</field>
-        <id>edcee2fddbbc5490b8ae8d7e1396190f</id>
+        <id>712859ebdbf81010b8ae8d7e13961927</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:44</sys_created_on>
-        <sys_id>22ce26fddbbc5490b8ae8d7e13961918</sys_id>
+        <sys_created_on>2020-05-21 17:20:39</sys_created_on>
+        <sys_id>fa2899ebdbf81010b8ae8d7e139619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</table>
+        <sys_updated_on>2020-05-21 17:20:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</table>
         <value>{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>results</field>
-        <id>edcee2fddbbc5490b8ae8d7e1396190f</id>
+        <id>712859ebdbf81010b8ae8d7e13961927</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:44</sys_created_on>
-        <sys_id>6ece26fddbbc5490b8ae8d7e13961917</sys_id>
+        <sys_created_on>2020-05-21 17:20:39</sys_created_on>
+        <sys_id>3a2899ebdbf81010b8ae8d7e139619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</table>
+        <sys_updated_on>2020-05-21 17:20:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN06cee2fddbbc5490b8ae8d7e139619ac,b9cee2fddbbc5490b8ae8d7e13961993"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=712859ebdbf81010b8ae8d7e13961927^sys_idNOT IN9e2859ebdbf81010b8ae8d7e1396197d,da2859ebdbf81010b8ae8d7e13961970"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</action>
+        <action display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</action>
         <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -92,29 +92,43 @@
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>06cee2fddbbc5490b8ae8d7e139619ac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>9e2859ebdbf81010b8ae8d7e1396197d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:52</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=06cee2fddbbc5490b8ae8d7e139619ac"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9e2859ebdbf81010b8ae8d7e1396197d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>06cee2fddbbc5490b8ae8d7e139619ac</document_key>
+        <document_key>9e2859ebdbf81010b8ae8d7e1396197d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>262899ebdbf81010b8ae8d7e1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9e2859ebdbf81010b8ae8d7e1396197d</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>96cee2fddbbc5490b8ae8d7e139619e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>e62899ebdbf81010b8ae8d7e1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:52</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   try{
@@ -135,58 +149,44 @@
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>06cee2fddbbc5490b8ae8d7e139619ac</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>d2cee2fddbbc5490b8ae8d7e139619e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=06cee2fddbbc5490b8ae8d7e139619ac"/>
+    <sys_element_mapping action="delete_multiple" query="id=9e2859ebdbf81010b8ae8d7e1396197d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>06cee2fddbbc5490b8ae8d7e139619ac</id>
+        <id>9e2859ebdbf81010b8ae8d7e1396197d</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>9ecee2fddbbc5490b8ae8d7e139619e5</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>e62859ebdbf81010b8ae8d7e139619b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>result</field>
-        <id>06cee2fddbbc5490b8ae8d7e139619ac</id>
+        <id>9e2859ebdbf81010b8ae8d7e1396197d</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>16cee2fddbbc5490b8ae8d7e139619e7</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>e22899ebdbf81010b8ae8d7e1396191b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_06cee2fddbbc5490b8ae8d7e139619ac</table>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9e2859ebdbf81010b8ae8d7e1396197d</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>06cee2fddbbc5490b8ae8d7e139619ac</id>
+        <id>9e2859ebdbf81010b8ae8d7e1396197d</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>52cee2fddbbc5490b8ae8d7e139619e6</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>a22899ebdbf81010b8ae8d7e1396191a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=06cee2fddbbc5490b8ae8d7e139619ac^sys_idNOT IN02cee2fddbbc5490b8ae8d7e139619af"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9e2859ebdbf81010b8ae8d7e1396197d^sys_idNOT INda2859ebdbf81010b8ae8d7e13961980"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -226,10 +226,10 @@
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">06cee2fddbbc5490b8ae8d7e139619ac</model>
-        <model_id>06cee2fddbbc5490b8ae8d7e139619ac</model_id>
+        <model display_value="Format output for work notes">9e2859ebdbf81010b8ae8d7e1396197d</model>
+        <model_id>9e2859ebdbf81010b8ae8d7e1396197d</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_06cee2fddbbc5490b8ae8d7e139619ac</name>
+        <name>var__m_sys_hub_step_ext_input_9e2859ebdbf81010b8ae8d7e1396197d</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -247,8 +247,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>02cee2fddbbc5490b8ae8d7e139619af</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>da2859ebdbf81010b8ae8d7e13961980</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -256,7 +256,7 @@
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:44</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -268,7 +268,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=06cee2fddbbc5490b8ae8d7e139619ac^sys_idNOT IN8acee2fddbbc5490b8ae8d7e139619cf"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9e2859ebdbf81010b8ae8d7e1396197d^sys_idNOT INa22859ebdbf81010b8ae8d7e139619ad"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -308,10 +308,10 @@
         <label>formatResult</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">06cee2fddbbc5490b8ae8d7e139619ac</model>
-        <model_id>06cee2fddbbc5490b8ae8d7e139619ac</model_id>
+        <model display_value="Format output for work notes">9e2859ebdbf81010b8ae8d7e1396197d</model>
+        <model_id>9e2859ebdbf81010b8ae8d7e1396197d</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_06cee2fddbbc5490b8ae8d7e139619ac</name>
+        <name>var__m_sys_hub_step_ext_output_9e2859ebdbf81010b8ae8d7e1396197d</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -329,8 +329,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>8acee2fddbbc5490b8ae8d7e139619cf</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>a22859ebdbf81010b8ae8d7e139619ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -338,7 +338,7 @@
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -351,312 +351,202 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</action>
+        <action display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</action>
         <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>Run Top</label>
+        <label>Run df</label>
         <order>1</order>
         <outputs/>
         <section/>
         <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>b9cee2fddbbc5490b8ae8d7e13961993</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:36</sys_created_on>
+        <sys_id>da2859ebdbf81010b8ae8d7e13961970</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:53:22</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:21:28</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b9cee2fddbbc5490b8ae8d7e13961993"/>
+    <sys_variable_value action="delete_multiple" query="document_key=da2859ebdbf81010b8ae8d7e13961970"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>300</order>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>650</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>02cee2fddbbc5490b8ae8d7e139619a9</sys_id>
+        <sys_created_on>2020-05-21 17:21:28</sys_created_on>
+        <sys_id>0358112fdbf81010b8ae8d7e13961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
-        <value>d71836e5db741490b8ae8d7e139619ab</value>
-        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+        <sys_updated_on>2020-05-21 17:21:28</sys_updated_on>
+        <value>df -k</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>02cee2fddbbc5490b8ae8d7e139619aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>/tmp</value>
-        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>4ecee2fddbbc5490b8ae8d7e139619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>8acee2fddbbc5490b8ae8d7e139619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>750</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>c2cee2fddbbc5490b8ae8d7e139619aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:29</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">29ae9f2473332300673d94596bf6a747</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
         <order>550</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>c6cee2fddbbc5490b8ae8d7e139619a9</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>162859ebdbf81010b8ae8d7e1396197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
         <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>650</order>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:29</sys_created_on>
-        <sys_id>d03fa231dbfc5490b8ae8d7e13961990</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:52</sys_updated_on>
-        <value/>
-        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b9cee2fddbbc5490b8ae8d7e13961993"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>0ecee2fddbbc5490b8ae8d7e139619a7</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>5e2859ebdbf81010b8ae8d7e1396197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>9a2859ebdbf81010b8ae8d7e1396197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>d62859ebdbf81010b8ae8d7e1396197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>da2859ebdbf81010b8ae8d7e1396197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da2859ebdbf81010b8ae8d7e13961970"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>9a2859ebdbf81010b8ae8d7e13961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>command</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>cacee2fddbbc5490b8ae8d7e139619a8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>5a2859ebdbf81010b8ae8d7e1396197a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:53:22</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:21:28</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>TERM=xterm
-export TERM
-top {{action.parms}} -n 1 -b &gt; top-out
-cat top-out</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>82cee2fddbbc5490b8ae8d7e139619a8</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>122859ebdbf81010b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>credential_alias</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>46cee2fddbbc5490b8ae8d7e139619a7</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>522859ebdbf81010b8ae8d7e13961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>directory</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>0acee2fddbbc5490b8ae8d7e139619a8</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>962859ebdbf81010b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>host</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>cecee2fddbbc5490b8ae8d7e139619a7</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>5e2859ebdbf81010b8ae8d7e13961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value>{{action.host}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>mid_application</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>46cee2fddbbc5490b8ae8d7e139619a8</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>d22859ebdbf81010b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>must_sudo</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>8ecee2fddbbc5490b8ae8d7e139619a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_action_input action="delete_multiple" query="model=edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN28c6713adb34d890b8ae8d7e139619c5,edcee2fddbbc5490b8ae8d7e13961923"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0f2cb43-03c3-4057-a4a3-91af43f992cc</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>parms</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>parameters</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</model>
-        <model_id>edcee2fddbbc5490b8ae8d7e1396190f</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_edcee2fddbbc5490b8ae8d7e1396190f</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-19 11:38:51</sys_created_on>
-        <sys_id>28c6713adb34d890b8ae8d7e139619c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:51</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
+    <sys_hub_action_input action="delete_multiple" query="model=712859ebdbf81010b8ae8d7e13961927^sys_idNOT INc62859ebdbf81010b8ae8d7e13961953"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -696,10 +586,10 @@ cat top-out</value>
         <label>host</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</model>
-        <model_id>edcee2fddbbc5490b8ae8d7e1396190f</model_id>
+        <model display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</model>
+        <model_id>712859ebdbf81010b8ae8d7e13961927</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_edcee2fddbbc5490b8ae8d7e1396190f</name>
+        <name>var__m_sys_hub_action_input_712859ebdbf81010b8ae8d7e13961927</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -717,8 +607,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:40</sys_created_on>
-        <sys_id>edcee2fddbbc5490b8ae8d7e13961923</sys_id>
+        <sys_created_on>2020-05-21 17:20:35</sys_created_on>
+        <sys_id>c62859ebdbf81010b8ae8d7e13961953</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -726,7 +616,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:40</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -738,90 +628,7 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN56cee2fddbbc5490b8ae8d7e139619f1,5ecee2fddbbc5490b8ae8d7e139619e9,decee2fddbbc5490b8ae8d7e139619f7"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4a8ab61e-0b5c-48ef-86f1-a57df8ba7504</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>formatresults</element>
-        <element_prototype/>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>formatResults</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</model>
-        <model_id>edcee2fddbbc5490b8ae8d7e1396190f</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:43</sys_created_on>
-        <sys_id>56cee2fddbbc5490b8ae8d7e139619f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
+    <sys_hub_action_output action="delete_multiple" query="model=712859ebdbf81010b8ae8d7e13961927^sys_idNOT IN2e2899ebdbf81010b8ae8d7e1396191d,ba2899ebdbf81010b8ae8d7e13961924,fa2899ebdbf81010b8ae8d7e13961968"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -863,10 +670,10 @@ cat top-out</value>
         <label>results</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</model>
-        <model_id>edcee2fddbbc5490b8ae8d7e1396190f</model_id>
+        <model display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</model>
+        <model_id>712859ebdbf81010b8ae8d7e13961927</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</name>
+        <name>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -884,16 +691,99 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:43</sys_created_on>
-        <sys_id>5ecee2fddbbc5490b8ae8d7e139619e9</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>2e2899ebdbf81010b8ae8d7e1396191d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:11</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4a8ab61e-0b5c-48ef-86f1-a57df8ba7504</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresults</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResults</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</model>
+        <model_id>712859ebdbf81010b8ae8d7e13961927</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>ba2899ebdbf81010b8ae8d7e13961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -946,10 +836,10 @@ cat top-out</value>
         <label>error</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</model>
-        <model_id>edcee2fddbbc5490b8ae8d7e1396190f</model_id>
+        <model display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</model>
+        <model_id>712859ebdbf81010b8ae8d7e13961927</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</name>
+        <name>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</name>
         <next_element/>
         <order>3</order>
         <primary>false</primary>
@@ -967,16 +857,16 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:43</sys_created_on>
-        <sys_id>decee2fddbbc5490b8ae8d7e139619f7</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>fa2899ebdbf81010b8ae8d7e13961968</sys_id>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:11</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -988,9 +878,9 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN06cee2fddbbc5490b8ae8d7e139619ac,b9cee2fddbbc5490b8ae8d7e13961993"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=712859ebdbf81010b8ae8d7e13961927^sys_idNOT IN9e2859ebdbf81010b8ae8d7e1396197d,da2859ebdbf81010b8ae8d7e13961970"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</action>
+        <action display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</action>
         <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1004,29 +894,43 @@ cat top-out</value>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>06cee2fddbbc5490b8ae8d7e139619ac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>9e2859ebdbf81010b8ae8d7e1396197d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:52</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=06cee2fddbbc5490b8ae8d7e139619ac"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9e2859ebdbf81010b8ae8d7e1396197d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>06cee2fddbbc5490b8ae8d7e139619ac</document_key>
+        <document_key>9e2859ebdbf81010b8ae8d7e1396197d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>262899ebdbf81010b8ae8d7e1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9e2859ebdbf81010b8ae8d7e1396197d</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>96cee2fddbbc5490b8ae8d7e139619e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>e62899ebdbf81010b8ae8d7e1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:52</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   try{
@@ -1047,58 +951,44 @@ cat top-out</value>
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>06cee2fddbbc5490b8ae8d7e139619ac</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>d2cee2fddbbc5490b8ae8d7e139619e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=06cee2fddbbc5490b8ae8d7e139619ac"/>
+    <sys_element_mapping action="delete_multiple" query="id=9e2859ebdbf81010b8ae8d7e1396197d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>06cee2fddbbc5490b8ae8d7e139619ac</id>
+        <id>9e2859ebdbf81010b8ae8d7e1396197d</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>9ecee2fddbbc5490b8ae8d7e139619e5</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>e62859ebdbf81010b8ae8d7e139619b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>result</field>
-        <id>06cee2fddbbc5490b8ae8d7e139619ac</id>
+        <id>9e2859ebdbf81010b8ae8d7e1396197d</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>16cee2fddbbc5490b8ae8d7e139619e7</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>e22899ebdbf81010b8ae8d7e1396191b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_06cee2fddbbc5490b8ae8d7e139619ac</table>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9e2859ebdbf81010b8ae8d7e1396197d</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>06cee2fddbbc5490b8ae8d7e139619ac</id>
+        <id>9e2859ebdbf81010b8ae8d7e1396197d</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>52cee2fddbbc5490b8ae8d7e139619e6</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>a22899ebdbf81010b8ae8d7e1396191a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=06cee2fddbbc5490b8ae8d7e139619ac^sys_idNOT IN02cee2fddbbc5490b8ae8d7e139619af"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9e2859ebdbf81010b8ae8d7e1396197d^sys_idNOT INda2859ebdbf81010b8ae8d7e13961980"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1138,10 +1028,10 @@ cat top-out</value>
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">06cee2fddbbc5490b8ae8d7e139619ac</model>
-        <model_id>06cee2fddbbc5490b8ae8d7e139619ac</model_id>
+        <model display_value="Format output for work notes">9e2859ebdbf81010b8ae8d7e1396197d</model>
+        <model_id>9e2859ebdbf81010b8ae8d7e1396197d</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_06cee2fddbbc5490b8ae8d7e139619ac</name>
+        <name>var__m_sys_hub_step_ext_input_9e2859ebdbf81010b8ae8d7e1396197d</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -1159,8 +1049,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>02cee2fddbbc5490b8ae8d7e139619af</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>da2859ebdbf81010b8ae8d7e13961980</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1168,7 +1058,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:44</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1180,7 +1070,7 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=06cee2fddbbc5490b8ae8d7e139619ac^sys_idNOT IN8acee2fddbbc5490b8ae8d7e139619cf"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9e2859ebdbf81010b8ae8d7e1396197d^sys_idNOT INa22859ebdbf81010b8ae8d7e139619ad"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1220,10 +1110,10 @@ cat top-out</value>
         <label>formatResult</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">06cee2fddbbc5490b8ae8d7e139619ac</model>
-        <model_id>06cee2fddbbc5490b8ae8d7e139619ac</model_id>
+        <model display_value="Format output for work notes">9e2859ebdbf81010b8ae8d7e1396197d</model>
+        <model_id>9e2859ebdbf81010b8ae8d7e1396197d</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_06cee2fddbbc5490b8ae8d7e139619ac</name>
+        <name>var__m_sys_hub_step_ext_output_9e2859ebdbf81010b8ae8d7e1396197d</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -1241,8 +1131,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>8acee2fddbbc5490b8ae8d7e139619cf</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>a22859ebdbf81010b8ae8d7e139619ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1250,7 +1140,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1263,301 +1153,283 @@ cat top-out</value>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</action>
+        <action display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</action>
         <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>Run Top</label>
+        <label>Run df</label>
         <order>1</order>
         <outputs/>
         <section/>
         <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>b9cee2fddbbc5490b8ae8d7e13961993</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:36</sys_created_on>
+        <sys_id>da2859ebdbf81010b8ae8d7e13961970</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:53:22</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:21:28</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b9cee2fddbbc5490b8ae8d7e13961993"/>
+    <sys_variable_value action="delete_multiple" query="document_key=da2859ebdbf81010b8ae8d7e13961970"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>300</order>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>650</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>02cee2fddbbc5490b8ae8d7e139619a9</sys_id>
+        <sys_created_on>2020-05-21 17:21:28</sys_created_on>
+        <sys_id>0358112fdbf81010b8ae8d7e13961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
-        <value>d71836e5db741490b8ae8d7e139619ab</value>
-        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+        <sys_updated_on>2020-05-21 17:21:28</sys_updated_on>
+        <value>df -k</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>02cee2fddbbc5490b8ae8d7e139619aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>/tmp</value>
-        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>4ecee2fddbbc5490b8ae8d7e139619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>8acee2fddbbc5490b8ae8d7e139619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>750</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>c2cee2fddbbc5490b8ae8d7e139619aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:29</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">29ae9f2473332300673d94596bf6a747</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
         <order>550</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:42</sys_created_on>
-        <sys_id>c6cee2fddbbc5490b8ae8d7e139619a9</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>162859ebdbf81010b8ae8d7e1396197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
         <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>b9cee2fddbbc5490b8ae8d7e13961993</document_key>
-        <order>650</order>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:29</sys_created_on>
-        <sys_id>d03fa231dbfc5490b8ae8d7e13961990</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:52</sys_updated_on>
-        <value/>
-        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b9cee2fddbbc5490b8ae8d7e13961993"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>0ecee2fddbbc5490b8ae8d7e139619a7</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>5e2859ebdbf81010b8ae8d7e1396197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>9a2859ebdbf81010b8ae8d7e1396197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>d62859ebdbf81010b8ae8d7e1396197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da2859ebdbf81010b8ae8d7e13961970</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>da2859ebdbf81010b8ae8d7e1396197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da2859ebdbf81010b8ae8d7e13961970"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>9a2859ebdbf81010b8ae8d7e13961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>command</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>cacee2fddbbc5490b8ae8d7e139619a8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>5a2859ebdbf81010b8ae8d7e1396197a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:53:22</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:21:28</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>TERM=xterm
-export TERM
-top {{action.parms}} -n 1 -b &gt; top-out
-cat top-out</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>82cee2fddbbc5490b8ae8d7e139619a8</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>122859ebdbf81010b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>credential_alias</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>46cee2fddbbc5490b8ae8d7e139619a7</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>522859ebdbf81010b8ae8d7e13961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>directory</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>0acee2fddbbc5490b8ae8d7e139619a8</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>962859ebdbf81010b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>host</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>cecee2fddbbc5490b8ae8d7e139619a7</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>5e2859ebdbf81010b8ae8d7e13961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value>{{action.host}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>mid_application</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
+        <id>da2859ebdbf81010b8ae8d7e13961970</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>46cee2fddbbc5490b8ae8d7e139619a8</sys_id>
+        <sys_created_on>2020-05-21 17:20:37</sys_created_on>
+        <sys_id>d22859ebdbf81010b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:37</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>must_sudo</field>
-        <id>b9cee2fddbbc5490b8ae8d7e13961993</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>8ecee2fddbbc5490b8ae8d7e139619a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN3af8116fdbf81010b8ae8d7e1396195f,76f8116fdbf81010b8ae8d7e1396195f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=712859ebdbf81010b8ae8d7e13961927^sys_idNOT IN09c6b13adb34d890b8ae8d7e13961925,41c6b13adb34d890b8ae8d7e13961925,472899ebdbf81010b8ae8d7e139619ba,8f2899ebdbf81010b8ae8d7e139619ba"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>edcee2fddbbc5490b8ae8d7e1396190f</attached_to>
-        <extra_info/>
-        <order>0</order>
-        <prescription>{{action.parms}}</prescription>
-        <source_ui_id/>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-21 17:24:11</sys_created_on>
-        <sys_id>3af8116fdbf81010b8ae8d7e1396195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:11</sys_updated_on>
-        <transform_compositions>[]</transform_compositions>
-        <transform_definition_id/>
-        <ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</ui_id>
-    </sys_hub_pill_compound>
-    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>edcee2fddbbc5490b8ae8d7e1396190f</attached_to>
+        <attached_to>712859ebdbf81010b8ae8d7e13961927</attached_to>
         <extra_info/>
         <order>1</order>
         <prescription/>
         <source_ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</source_ui_id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-21 17:24:11</sys_created_on>
-        <sys_id>76f8116fdbf81010b8ae8d7e1396195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-05-19 11:38:53</sys_created_on>
+        <sys_id>09c6b13adb34d890b8ae8d7e13961925</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:11</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:41</sys_updated_on>
         <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
         <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
         <ui_id>1da3b327-46ca-44e7-884c-61f8504dc664</ui_id>
     </sys_hub_pill_compound>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN20c6713adb34d890b8ae8d7e139619e4,b9cee2fddbbc5490b8ae8d7e13961951"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>parms</element>
-        <help/>
-        <hint/>
-        <label>parameters</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_edcee2fddbbc5490b8ae8d7e1396190f</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>712859ebdbf81010b8ae8d7e13961927</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.parms}}</prescription>
+        <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-19 11:38:51</sys_created_on>
-        <sys_id>20c6713adb34d890b8ae8d7e139619e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
-        <sys_policy/>
+        <sys_created_on>2020-05-19 11:38:53</sys_created_on>
+        <sys_id>41c6b13adb34d890b8ae8d7e13961925</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:38:51</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+        <sys_updated_on>2020-05-21 17:20:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>712859ebdbf81010b8ae8d7e13961927</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:39</sys_created_on>
+        <sys_id>472899ebdbf81010b8ae8d7e139619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>1da3b327-46ca-44e7-884c-61f8504dc664</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>712859ebdbf81010b8ae8d7e13961927</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.parms}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:39</sys_created_on>
+        <sys_id>8f2899ebdbf81010b8ae8d7e139619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_712859ebdbf81010b8ae8d7e13961927^sys_idNOT IN9a2859ebdbf81010b8ae8d7e1396195b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>host</element>
         <help/>
         <hint/>
         <label>host</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_edcee2fddbbc5490b8ae8d7e1396190f</name>
+        <name>var__m_sys_hub_action_input_712859ebdbf81010b8ae8d7e13961927</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:41</sys_created_on>
-        <sys_id>b9cee2fddbbc5490b8ae8d7e13961951</sys_id>
+        <sys_created_on>2020-05-21 17:20:36</sys_created_on>
+        <sys_id>9a2859ebdbf81010b8ae8d7e1396195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -1565,23 +1437,46 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:41</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:36</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT IN1acee2fddbbc5490b8ae8d7e139619f6,92cee2fddbbc5490b8ae8d7e139619fd,9ecee2fddbbc5490b8ae8d7e139619ef"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927^sys_idNOT IN3a2899ebdbf81010b8ae8d7e13961923,7a2899ebdbf81010b8ae8d7e13961967,f62899ebdbf81010b8ae8d7e1396196d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>3a2899ebdbf81010b8ae8d7e13961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>formatresults</element>
         <help/>
         <hint/>
         <label>formatResults</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</name>
+        <name>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:43</sys_created_on>
-        <sys_id>1acee2fddbbc5490b8ae8d7e139619f6</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>7a2899ebdbf81010b8ae8d7e13961967</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -1589,7 +1484,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1599,12 +1494,12 @@ cat top-out</value>
         <hint/>
         <label>error</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</name>
+        <name>var__m_sys_hub_action_output_712859ebdbf81010b8ae8d7e13961927</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:43</sys_created_on>
-        <sys_id>92cee2fddbbc5490b8ae8d7e139619fd</sys_id>
+        <sys_created_on>2020-05-21 17:20:38</sys_created_on>
+        <sys_id>f62899ebdbf81010b8ae8d7e1396196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -1612,44 +1507,21 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:20:38</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>results</element>
-        <help/>
-        <hint/>
-        <label>results</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_edcee2fddbbc5490b8ae8d7e1396190f</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:09:43</sys_created_on>
-        <sys_id>9ecee2fddbbc5490b8ae8d7e139619ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:09:43</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=edcee2fddbbc5490b8ae8d7e1396190f^sys_idNOT INa44fe631dbfc5490b8ae8d7e1396197d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=712859ebdbf81010b8ae8d7e13961927^sys_idNOT INe8f8dd2fdbf81010b8ae8d7e13961985"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</action_id>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a44fe631dbfc5490b8ae8d7e1396197d","name":"plan"}}</plan>
-        <snapshot>2ff8116fdbf81010b8ae8d7e139619f6</snapshot>
+        <action_id display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e8f8dd2fdbf81010b8ae8d7e13961985","name":"plan"}}</plan>
+        <snapshot>fae85d2fdbf81010b8ae8d7e139619fa</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:46</sys_created_on>
+        <sys_created_on>2020-05-21 17:24:02</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>a44fe631dbfc5490b8ae8d7e1396197d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>e8f8dd2fdbf81010b8ae8d7e13961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1657,7 +1529,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:21</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:24:02</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1668,21 +1540,21 @@ cat top-out</value>
         <category display_value="Data Retrieval">3ef8ba29db741490b8ae8d7e13961923</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
-        <internal_name>run_top</internal_name>
-        <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛action","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛svcName","type":"action","ref":""},{"name":"{{action.parameters}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{action.parms}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Run Top➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Run Top➛Error Message","type":"step","ref":""}]</label_cache>
+        <description>Run df -k on a Linux server</description>
+        <internal_name>show_disk_space</internal_name>
+        <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛action","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛svcName","type":"action","ref":""},{"name":"{{action.parameters}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{action.parms}}","label":"action➛parameters","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Run df➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Run df➛Error Message","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Run Top</name>
+        <name>Show Disk Space</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Run Top">edcee2fddbbc5490b8ae8d7e1396190f</parent_action>
+        <parent_action display_value="Show Disk Space">712859ebdbf81010b8ae8d7e13961927</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:42</sys_created_on>
+        <sys_created_on>2020-05-21 17:23:57</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>633f6631dbfc5490b8ae8d7e139619cb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>97e89d2fdbf81010b8ae8d7e13961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1690,52 +1562,248 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:17</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:57</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=633f6631dbfc5490b8ae8d7e139619cb"/>
-    <sys_variable_value action="delete_multiple" query="document_key=633f6631dbfc5490b8ae8d7e139619cb"/>
-    <sys_element_mapping action="delete_multiple" query="id=633f6631dbfc5490b8ae8d7e139619cb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=97e89d2fdbf81010b8ae8d7e13961968"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97e89d2fdbf81010b8ae8d7e13961968"/>
+    <sys_element_mapping action="delete_multiple" query="id=97e89d2fdbf81010b8ae8d7e13961968"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error</field>
-        <id>633f6631dbfc5490b8ae8d7e139619cb</id>
+        <id>97e89d2fdbf81010b8ae8d7e13961968</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>4c4fa631dbfc5490b8ae8d7e139619dc</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>bbe89d2fdbf81010b8ae8d7e139619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</table>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>formatresults</field>
-        <id>633f6631dbfc5490b8ae8d7e139619cb</id>
+        <id>97e89d2fdbf81010b8ae8d7e13961968</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>c04fa631dbfc5490b8ae8d7e139619dd</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>33e89d2fdbf81010b8ae8d7e139619ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</table>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</table>
         <value>{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>results</field>
-        <id>633f6631dbfc5490b8ae8d7e139619cb</id>
+        <id>97e89d2fdbf81010b8ae8d7e13961968</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>004fa631dbfc5490b8ae8d7e139619dd</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>7fe89d2fdbf81010b8ae8d7e139619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
-        <table>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</table>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT IN2b3fa631dbfc5490b8ae8d7e13961910,2f3f6631dbfc5490b8ae8d7e139619e0"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT IN6fe89d2fdbf81010b8ae8d7e13961989,ebe89d2fdbf81010b8ae8d7e139619a0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</action>
+        <action display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</action>
+        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Run df</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6fe89d2fdbf81010b8ae8d7e13961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6fe89d2fdbf81010b8ae8d7e13961989"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>23e89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>2fe89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>df -k</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6be89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6fe89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>a7e89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>e3e89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6fe89d2fdbf81010b8ae8d7e13961989"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>2fe89d2fdbf81010b8ae8d7e1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>ebe89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>a3e89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6be89d2fdbf81010b8ae8d7e1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>2be89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>efe89d2fdbf81010b8ae8d7e1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>67e89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</action>
         <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1749,29 +1817,29 @@ cat top-out</value>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>2b3fa631dbfc5490b8ae8d7e13961910</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>ebe89d2fdbf81010b8ae8d7e139619a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2b3fa631dbfc5490b8ae8d7e13961910"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ebe89d2fdbf81010b8ae8d7e139619a0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2b3fa631dbfc5490b8ae8d7e13961910</document_key>
+        <document_key>ebe89d2fdbf81010b8ae8d7e139619a0</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>7f3fa631dbfc5490b8ae8d7e1396196e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>a3e89d2fdbf81010b8ae8d7e139619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   try{
@@ -1794,56 +1862,56 @@ cat top-out</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2b3fa631dbfc5490b8ae8d7e13961910</document_key>
+        <document_key>ebe89d2fdbf81010b8ae8d7e139619a0</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>bb3fa631dbfc5490b8ae8d7e1396196e</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>efe89d2fdbf81010b8ae8d7e139619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2b3fa631dbfc5490b8ae8d7e13961910"/>
+    <sys_element_mapping action="delete_multiple" query="id=ebe89d2fdbf81010b8ae8d7e139619a0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>2b3fa631dbfc5490b8ae8d7e13961910</id>
+        <id>ebe89d2fdbf81010b8ae8d7e139619a0</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>773fa631dbfc5490b8ae8d7e1396196e</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>abe89d2fdbf81010b8ae8d7e139619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>result</field>
-        <id>2b3fa631dbfc5490b8ae8d7e13961910</id>
+        <id>ebe89d2fdbf81010b8ae8d7e139619a0</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>f73fa631dbfc5490b8ae8d7e1396196f</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>e3e89d2fdbf81010b8ae8d7e139619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_2b3fa631dbfc5490b8ae8d7e13961910</table>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ebe89d2fdbf81010b8ae8d7e139619a0</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>2b3fa631dbfc5490b8ae8d7e13961910</id>
+        <id>ebe89d2fdbf81010b8ae8d7e139619a0</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>3b3fa631dbfc5490b8ae8d7e1396196e</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6fe89d2fdbf81010b8ae8d7e139619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=2b3fa631dbfc5490b8ae8d7e13961910^sys_idNOT INa33fa631dbfc5490b8ae8d7e13961913"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ebe89d2fdbf81010b8ae8d7e139619a0^sys_idNOT IN67e89d2fdbf81010b8ae8d7e139619a3"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1883,10 +1951,10 @@ cat top-out</value>
         <label>result</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">2b3fa631dbfc5490b8ae8d7e13961910</model>
-        <model_id>2b3fa631dbfc5490b8ae8d7e13961910</model_id>
+        <model display_value="Format output for work notes">ebe89d2fdbf81010b8ae8d7e139619a0</model>
+        <model_id>ebe89d2fdbf81010b8ae8d7e139619a0</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_2b3fa631dbfc5490b8ae8d7e13961910</name>
+        <name>var__m_sys_hub_step_ext_input_ebe89d2fdbf81010b8ae8d7e139619a0</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -1904,8 +1972,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>a33fa631dbfc5490b8ae8d7e13961913</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>67e89d2fdbf81010b8ae8d7e139619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1913,7 +1981,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1925,7 +1993,7 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=2b3fa631dbfc5490b8ae8d7e13961910^sys_idNOT IN3b3fa631dbfc5490b8ae8d7e1396191a"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ebe89d2fdbf81010b8ae8d7e139619a0^sys_idNOT IN63e89d2fdbf81010b8ae8d7e139619aa"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1965,10 +2033,10 @@ cat top-out</value>
         <label>formatResult</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">2b3fa631dbfc5490b8ae8d7e13961910</model>
-        <model_id>2b3fa631dbfc5490b8ae8d7e13961910</model_id>
+        <model display_value="Format output for work notes">ebe89d2fdbf81010b8ae8d7e139619a0</model>
+        <model_id>ebe89d2fdbf81010b8ae8d7e139619a0</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_2b3fa631dbfc5490b8ae8d7e13961910</name>
+        <name>var__m_sys_hub_step_ext_output_ebe89d2fdbf81010b8ae8d7e139619a0</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -1986,8 +2054,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>3b3fa631dbfc5490b8ae8d7e1396191a</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>63e89d2fdbf81010b8ae8d7e139619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1995,7 +2063,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2007,206 +2075,7 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</action>
-        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Run Top</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:42</sys_created_on>
-        <sys_id>2f3f6631dbfc5490b8ae8d7e139619e0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2f3f6631dbfc5490b8ae8d7e139619e0"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>650</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>273f6631dbfc5490b8ae8d7e139619e9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
-        <value/>
-        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>550</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>2b3f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
-        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>633f6631dbfc5490b8ae8d7e139619e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>/tmp</value>
-        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>673f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>d71836e5db741490b8ae8d7e139619ab</value>
-        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>af3f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>eb3f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2f3f6631dbfc5490b8ae8d7e139619e0"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>273f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>command</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>e33f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>TERM=xterm
-export TERM
-top {{action.parms}} -n 1 -b &gt; top-out
-cat top-out</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>ab3f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>credential_alias</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>633f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>directory</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>233f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>host</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>e73f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>{{action.host}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_application</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>6f3f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_action_input action="delete_multiple" query="model=633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT IN273f6631dbfc5490b8ae8d7e139619cc,cc09516fdbf81010b8ae8d7e13961979"/>
+    <sys_hub_action_input action="delete_multiple" query="model=97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT IN97e89d2fdbf81010b8ae8d7e13961982"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2246,10 +2115,10 @@ cat top-out</value>
         <label>host</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</model>
-        <model_id>633f6631dbfc5490b8ae8d7e139619cb</model_id>
+        <model display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</model>
+        <model_id>97e89d2fdbf81010b8ae8d7e13961968</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_633f6631dbfc5490b8ae8d7e139619cb</name>
+        <name>var__m_sys_hub_action_input_97e89d2fdbf81010b8ae8d7e13961968</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -2267,8 +2136,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:42</sys_created_on>
-        <sys_id>273f6631dbfc5490b8ae8d7e139619cc</sys_id>
+        <sys_created_on>2020-05-21 17:23:57</sys_created_on>
+        <sys_id>97e89d2fdbf81010b8ae8d7e13961982</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -2276,7 +2145,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2288,88 +2157,7 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0f2cb43-03c3-4057-a4a3-91af43f992cc</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>parms</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>parameters</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</model>
-        <model_id>633f6631dbfc5490b8ae8d7e139619cb</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_633f6631dbfc5490b8ae8d7e139619cb</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-21 17:24:17</sys_created_on>
-        <sys_id>cc09516fdbf81010b8ae8d7e13961979</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT IN333fa631dbfc5490b8ae8d7e13961972,bb3fa631dbfc5490b8ae8d7e139619bd,bf3fa631dbfc5490b8ae8d7e13961991"/>
+    <sys_hub_action_output action="delete_multiple" query="model=97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT IN2fe89d2fdbf81010b8ae8d7e139619c2,73e89d2fdbf81010b8ae8d7e139619c9,b7e89d2fdbf81010b8ae8d7e139619db"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2411,10 +2199,10 @@ cat top-out</value>
         <label>results</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</model>
-        <model_id>633f6631dbfc5490b8ae8d7e139619cb</model_id>
+        <model display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</model>
+        <model_id>97e89d2fdbf81010b8ae8d7e13961968</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</name>
+        <name>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -2432,99 +2220,16 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>333fa631dbfc5490b8ae8d7e13961972</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>2fe89d2fdbf81010b8ae8d7e139619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:19</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4cd93066-0e35-4b23-9d53-048c03bea4bd</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>error</element>
-        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">47e0e3a473332300673d94596bf6a7b3</element_prototype>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>error</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</model>
-        <model_id>633f6631dbfc5490b8ae8d7e139619cb</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>bb3fa631dbfc5490b8ae8d7e139619bd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:19</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2577,10 +2282,10 @@ cat top-out</value>
         <label>formatResults</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</model>
-        <model_id>633f6631dbfc5490b8ae8d7e139619cb</model_id>
+        <model display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</model>
+        <model_id>97e89d2fdbf81010b8ae8d7e13961968</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</name>
+        <name>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</name>
         <next_element/>
         <order>2</order>
         <primary>false</primary>
@@ -2598,8 +2303,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>bf3fa631dbfc5490b8ae8d7e13961991</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>73e89d2fdbf81010b8ae8d7e139619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -2607,7 +2312,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2619,9 +2324,288 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT IN2b3fa631dbfc5490b8ae8d7e13961910,2f3f6631dbfc5490b8ae8d7e139619e0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4cd93066-0e35-4b23-9d53-048c03bea4bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">47e0e3a473332300673d94596bf6a7b3</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</model>
+        <model_id>97e89d2fdbf81010b8ae8d7e13961968</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>b7e89d2fdbf81010b8ae8d7e139619db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT IN6fe89d2fdbf81010b8ae8d7e13961989,ebe89d2fdbf81010b8ae8d7e139619a0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</action>
+        <action display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</action>
+        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Run df</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6fe89d2fdbf81010b8ae8d7e13961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6fe89d2fdbf81010b8ae8d7e13961989"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>23e89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>2fe89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>df -k</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6be89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6fe89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>a7e89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6fe89d2fdbf81010b8ae8d7e13961989</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>e3e89d2fdbf81010b8ae8d7e1396199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6fe89d2fdbf81010b8ae8d7e13961989"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>2fe89d2fdbf81010b8ae8d7e1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>ebe89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>a3e89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6be89d2fdbf81010b8ae8d7e1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>2be89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>efe89d2fdbf81010b8ae8d7e1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>6fe89d2fdbf81010b8ae8d7e13961989</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>67e89d2fdbf81010b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Show Disk Space">97e89d2fdbf81010b8ae8d7e13961968</action>
         <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2635,29 +2619,29 @@ cat top-out</value>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>2b3fa631dbfc5490b8ae8d7e13961910</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>ebe89d2fdbf81010b8ae8d7e139619a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2b3fa631dbfc5490b8ae8d7e13961910"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ebe89d2fdbf81010b8ae8d7e139619a0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2b3fa631dbfc5490b8ae8d7e13961910</document_key>
+        <document_key>ebe89d2fdbf81010b8ae8d7e139619a0</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>7f3fa631dbfc5490b8ae8d7e1396196e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>a3e89d2fdbf81010b8ae8d7e139619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   try{
@@ -2680,56 +2664,56 @@ cat top-out</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2b3fa631dbfc5490b8ae8d7e13961910</document_key>
+        <document_key>ebe89d2fdbf81010b8ae8d7e139619a0</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>bb3fa631dbfc5490b8ae8d7e1396196e</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>efe89d2fdbf81010b8ae8d7e139619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2b3fa631dbfc5490b8ae8d7e13961910"/>
+    <sys_element_mapping action="delete_multiple" query="id=ebe89d2fdbf81010b8ae8d7e139619a0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>2b3fa631dbfc5490b8ae8d7e13961910</id>
+        <id>ebe89d2fdbf81010b8ae8d7e139619a0</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>773fa631dbfc5490b8ae8d7e1396196e</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>abe89d2fdbf81010b8ae8d7e139619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>result</field>
-        <id>2b3fa631dbfc5490b8ae8d7e13961910</id>
+        <id>ebe89d2fdbf81010b8ae8d7e139619a0</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>f73fa631dbfc5490b8ae8d7e1396196f</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>e3e89d2fdbf81010b8ae8d7e139619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_2b3fa631dbfc5490b8ae8d7e13961910</table>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ebe89d2fdbf81010b8ae8d7e139619a0</table>
         <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>2b3fa631dbfc5490b8ae8d7e13961910</id>
+        <id>ebe89d2fdbf81010b8ae8d7e139619a0</id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>3b3fa631dbfc5490b8ae8d7e1396196e</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>6fe89d2fdbf81010b8ae8d7e139619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=2b3fa631dbfc5490b8ae8d7e13961910^sys_idNOT INa33fa631dbfc5490b8ae8d7e13961913"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ebe89d2fdbf81010b8ae8d7e139619a0^sys_idNOT IN67e89d2fdbf81010b8ae8d7e139619a3"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2769,10 +2753,10 @@ cat top-out</value>
         <label>result</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">2b3fa631dbfc5490b8ae8d7e13961910</model>
-        <model_id>2b3fa631dbfc5490b8ae8d7e13961910</model_id>
+        <model display_value="Format output for work notes">ebe89d2fdbf81010b8ae8d7e139619a0</model>
+        <model_id>ebe89d2fdbf81010b8ae8d7e139619a0</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_2b3fa631dbfc5490b8ae8d7e13961910</name>
+        <name>var__m_sys_hub_step_ext_input_ebe89d2fdbf81010b8ae8d7e139619a0</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -2790,8 +2774,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>a33fa631dbfc5490b8ae8d7e13961913</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>67e89d2fdbf81010b8ae8d7e139619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -2799,7 +2783,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2811,7 +2795,7 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=2b3fa631dbfc5490b8ae8d7e13961910^sys_idNOT IN3b3fa631dbfc5490b8ae8d7e1396191a"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ebe89d2fdbf81010b8ae8d7e139619a0^sys_idNOT IN63e89d2fdbf81010b8ae8d7e139619aa"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2851,10 +2835,10 @@ cat top-out</value>
         <label>formatResult</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Format output for work notes">2b3fa631dbfc5490b8ae8d7e13961910</model>
-        <model_id>2b3fa631dbfc5490b8ae8d7e13961910</model_id>
+        <model display_value="Format output for work notes">ebe89d2fdbf81010b8ae8d7e139619a0</model>
+        <model_id>ebe89d2fdbf81010b8ae8d7e139619a0</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_2b3fa631dbfc5490b8ae8d7e13961910</name>
+        <name>var__m_sys_hub_step_ext_output_ebe89d2fdbf81010b8ae8d7e139619a0</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -2872,8 +2856,8 @@ cat top-out</value>
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>3b3fa631dbfc5490b8ae8d7e1396191a</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>63e89d2fdbf81010b8ae8d7e139619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -2881,7 +2865,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2893,276 +2877,54 @@ cat top-out</value>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Run Top">633f6631dbfc5490b8ae8d7e139619cb</action>
-        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Run Top</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:42</sys_created_on>
-        <sys_id>2f3f6631dbfc5490b8ae8d7e139619e0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2f3f6631dbfc5490b8ae8d7e139619e0"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>650</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>273f6631dbfc5490b8ae8d7e139619e9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
-        <value/>
-        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>550</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>2b3f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
-        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>633f6631dbfc5490b8ae8d7e139619e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>/tmp</value>
-        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>673f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>d71836e5db741490b8ae8d7e139619ab</value>
-        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>af3f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>2f3f6631dbfc5490b8ae8d7e139619e0</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>eb3f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2f3f6631dbfc5490b8ae8d7e139619e0"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>273f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>command</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>e33f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>TERM=xterm
-export TERM
-top {{action.parms}} -n 1 -b &gt; top-out
-cat top-out</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>ab3f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>credential_alias</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>633f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>directory</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>233f6631dbfc5490b8ae8d7e139619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>host</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>e73f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>{{action.host}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_application</field>
-        <id>2f3f6631dbfc5490b8ae8d7e139619e0</id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:43</sys_created_on>
-        <sys_id>6f3f6631dbfc5490b8ae8d7e139619e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT IN2409516fdbf81010b8ae8d7e139619d4,e409516fdbf81010b8ae8d7e139619d4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT IN7fe89d2fdbf81010b8ae8d7e139619ee,bbe89d2fdbf81010b8ae8d7e139619ee"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>633f6631dbfc5490b8ae8d7e139619cb</attached_to>
-        <extra_info/>
-        <order>1</order>
-        <prescription/>
-        <source_ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</source_ui_id>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-21 17:24:19</sys_created_on>
-        <sys_id>2409516fdbf81010b8ae8d7e139619d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:19</sys_updated_on>
-        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
-        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
-        <ui_id>1da3b327-46ca-44e7-884c-61f8504dc664</ui_id>
-    </sys_hub_pill_compound>
-    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
-        <attached_to>633f6631dbfc5490b8ae8d7e139619cb</attached_to>
+        <attached_to>97e89d2fdbf81010b8ae8d7e13961968</attached_to>
         <extra_info/>
         <order>0</order>
         <prescription>{{action.parms}}</prescription>
         <source_ui_id/>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-21 17:24:19</sys_created_on>
-        <sys_id>e409516fdbf81010b8ae8d7e139619d4</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>7fe89d2fdbf81010b8ae8d7e139619ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:19</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</ui_id>
     </sys_hub_pill_compound>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT IN1c09516fdbf81010b8ae8d7e1396197e,673f6631dbfc5490b8ae8d7e139619de"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>parms</element>
-        <help/>
-        <hint/>
-        <label>parameters</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_633f6631dbfc5490b8ae8d7e139619cb</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97e89d2fdbf81010b8ae8d7e13961968</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e1a2075b-2dc9-4932-aff6-9fc9f8af377c</source_ui_id>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-21 17:24:17</sys_created_on>
-        <sys_id>1c09516fdbf81010b8ae8d7e1396197e</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>bbe89d2fdbf81010b8ae8d7e139619ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
-        <sys_policy/>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-21 17:24:17</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>1da3b327-46ca-44e7-884c-61f8504dc664</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT INebe89d2fdbf81010b8ae8d7e13961987"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>host</element>
         <help/>
         <hint/>
         <label>host</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_633f6631dbfc5490b8ae8d7e139619cb</name>
+        <name>var__m_sys_hub_action_input_97e89d2fdbf81010b8ae8d7e13961968</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:42</sys_created_on>
-        <sys_id>673f6631dbfc5490b8ae8d7e139619de</sys_id>
+        <sys_created_on>2020-05-21 17:23:58</sys_created_on>
+        <sys_id>ebe89d2fdbf81010b8ae8d7e13961987</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -3170,23 +2932,23 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:42</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:58</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb^sys_idNOT INbf3fa631dbfc5490b8ae8d7e13961996,f73fa631dbfc5490b8ae8d7e13961990,fb3fa631dbfc5490b8ae8d7e139619c2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968^sys_idNOT IN37e89d2fdbf81010b8ae8d7e139619da,b3e89d2fdbf81010b8ae8d7e139619e0,ffe89d2fdbf81010b8ae8d7e139619c7"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>formatresults</element>
         <help/>
         <hint/>
         <label>formatResults</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</name>
+        <name>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>bf3fa631dbfc5490b8ae8d7e13961996</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>37e89d2fdbf81010b8ae8d7e139619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -3194,30 +2956,7 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>results</element>
-        <help/>
-        <hint/>
-        <label>results</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>f73fa631dbfc5490b8ae8d7e13961990</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3227,12 +2966,12 @@ cat top-out</value>
         <hint/>
         <label>error</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_633f6631dbfc5490b8ae8d7e139619cb</name>
+        <name>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-16 13:11:44</sys_created_on>
-        <sys_id>fb3fa631dbfc5490b8ae8d7e139619c2</sys_id>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>b3e89d2fdbf81010b8ae8d7e139619e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
@@ -3240,7 +2979,30 @@ cat top-out</value>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-16 13:11:44</sys_updated_on>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_97e89d2fdbf81010b8ae8d7e13961968</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-21 17:23:59</sys_created_on>
+        <sys_id>ffe89d2fdbf81010b8ae8d7e139619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-21 17:23:59</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
