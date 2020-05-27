@@ -1,0 +1,4003 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Update Linux">03dea6fddbbc5490b8ae8d7e139619e1</category>
+        <copied_from>531dba21dbb41490b8ae8d7e139619c2</copied_from>
+        <copied_from_name>RHEL Stop/Start Services</copied_from_name>
+        <description>Specify "yes" in the "force kill" field if you want a -9 applied to the "kill" command</description>
+        <ih_action>true</ih_action>
+        <internal_name>kill_linux_process</internal_name>
+        <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛force kill","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛pid","type":"action","ref":""},{"name":"{{action.pid}}","label":"action➛pid","type":"action","ref":""},{"name":"{{action.force}}","label":"action➛force kill","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Kill Process➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Kill Process➛Error Message","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>494fdca9db41d810b8ae8d7e13961999</latest_snapshot>
+        <master_snapshot>654f10e9db41d810b8ae8d7e1396190a</master_snapshot>
+        <name>Kill Linux Process</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>858edc69db41d810b8ae8d7e13961923</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Kill Linux Process</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_858edc69db41d810b8ae8d7e13961923</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=858edc69db41d810b8ae8d7e13961923"/>
+    <sys_variable_value action="delete_multiple" query="document_key=858edc69db41d810b8ae8d7e13961923"/>
+    <sys_element_mapping action="delete_multiple" query="id=858edc69db41d810b8ae8d7e13961923"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>858edc69db41d810b8ae8d7e13961923</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>2d8edc69db41d810b8ae8d7e13961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>formatresults</field>
+        <id>858edc69db41d810b8ae8d7e13961923</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>a18edc69db41d810b8ae8d7e13961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</table>
+        <value>{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>results</field>
+        <id>858edc69db41d810b8ae8d7e13961923</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>ed8edc69db41d810b8ae8d7e13961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=858edc69db41d810b8ae8d7e13961923^sys_idNOT IN498edc69db41d810b8ae8d7e13961948,d18edc69db41d810b8ae8d7e13961953"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</action>
+        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Kill Process</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>498edc69db41d810b8ae8d7e13961948</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=498edc69db41d810b8ae8d7e13961948"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>118edc69db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>750</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>958edc69db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">29ae9f2473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>998edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d58edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=498edc69db41d810b8ae8d7e13961948"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>918edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>#!/bin/bash
+if [ {{action.force}} = "yes" ] ; then
+kill -9 {{action.pid}}
+else
+kill {{action.svcname}}
+fi</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>598edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>118edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>dd8edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>958edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>1d8edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>must_sudo</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>558edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</action>
+        <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Format output for work notes</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e13961953</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d18edc69db41d810b8ae8d7e13961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d18edc69db41d810b8ae8d7e13961953</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>118edc69db41d810b8ae8d7e13961966</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  try{
+  	var frmtOutput = 'Kill Process Request:&lt;br/&gt;';
+  	var rawInput = inputs.result;
+   
+    // Format the output to be used in work notes and be in courier font
+    
+    //frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;").replace(/ {1,}/g," ");
+  	frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;");
+  	var formatted1 = '[code]&lt;pre&gt;&lt;code&gt;' + frmtOutput + '&lt;/code&gt;&lt;/pre&gt;[/code]';
+  	outputs.formatresult = formatted1;
+  } catch (e) {
+    gs.info('Error formatting output: ' + e);
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d18edc69db41d810b8ae8d7e13961953</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e13961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d18edc69db41d810b8ae8d7e13961953"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d18edc69db41d810b8ae8d7e13961953</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>198edc69db41d810b8ae8d7e13961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>result</field>
+        <id>d18edc69db41d810b8ae8d7e13961953</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>998edc69db41d810b8ae8d7e13961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d18edc69db41d810b8ae8d7e13961953</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d18edc69db41d810b8ae8d7e13961953</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d98edc69db41d810b8ae8d7e13961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d18edc69db41d810b8ae8d7e13961953^sys_idNOT INdd8edc69db41d810b8ae8d7e13961955"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">d18edc69db41d810b8ae8d7e13961953</model>
+        <model_id>d18edc69db41d810b8ae8d7e13961953</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d18edc69db41d810b8ae8d7e13961953</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>dd8edc69db41d810b8ae8d7e13961955</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d18edc69db41d810b8ae8d7e13961953^sys_idNOT IN5d8edc69db41d810b8ae8d7e1396195c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=49a99342-0a58-4534-8919-071859997598</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresult</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResult</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">d18edc69db41d810b8ae8d7e13961953</model>
+        <model_id>d18edc69db41d810b8ae8d7e13961953</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d18edc69db41d810b8ae8d7e13961953</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e1396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=858edc69db41d810b8ae8d7e13961923^sys_idNOT IN418edc69db41d810b8ae8d7e13961928,6a3f9ca9db41d810b8ae8d7e13961917,aa3f9ca9db41d810b8ae8d7e1396191d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9d9bdd10-25ed-42b0-8298-8b248053a527</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>host</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>host</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</model>
+        <model_id>858edc69db41d810b8ae8d7e13961923</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:36</sys_created_on>
+        <sys_id>418edc69db41d810b8ae8d7e13961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a7b3f337-28f6-4dc7-8fd3-bc2597af68fc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>pid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</model>
+        <model_id>858edc69db41d810b8ae8d7e13961923</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_id>6a3f9ca9db41d810b8ae8d7e13961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3afe5ffe-2ca9-4463-8c8d-6d43e750cd8d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>force</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>force kill</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</model>
+        <model_id>858edc69db41d810b8ae8d7e13961923</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_id>aa3f9ca9db41d810b8ae8d7e1396191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=858edc69db41d810b8ae8d7e13961923^sys_idNOT IN5d8edc69db41d810b8ae8d7e1396196f,d18edc69db41d810b8ae8d7e13961969,dd8edc69db41d810b8ae8d7e13961975"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4a8ab61e-0b5c-48ef-86f1-a57df8ba7504</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresults</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResults</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</model>
+        <model_id>858edc69db41d810b8ae8d7e13961923</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e1396196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=a134142c-5893-4573-8564-0dba824c6f4f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">fab0a3a473332300673d94596bf6a70b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</model>
+        <model_id>858edc69db41d810b8ae8d7e13961923</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e13961969</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4cd93066-0e35-4b23-9d53-048c03bea4bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">47e0e3a473332300673d94596bf6a7b3</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</model>
+        <model_id>858edc69db41d810b8ae8d7e13961923</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>dd8edc69db41d810b8ae8d7e13961975</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=858edc69db41d810b8ae8d7e13961923^sys_idNOT IN498edc69db41d810b8ae8d7e13961948,d18edc69db41d810b8ae8d7e13961953"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</action>
+        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Kill Process</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>498edc69db41d810b8ae8d7e13961948</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=498edc69db41d810b8ae8d7e13961948"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>118edc69db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>750</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>958edc69db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">29ae9f2473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>998edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>498edc69db41d810b8ae8d7e13961948</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d58edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=498edc69db41d810b8ae8d7e13961948"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>918edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>#!/bin/bash
+if [ {{action.force}} = "yes" ] ; then
+kill -9 {{action.pid}}
+else
+kill {{action.svcname}}
+fi</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>598edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>118edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>dd8edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>958edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>1d8edc69db41d810b8ae8d7e1396194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>must_sudo</field>
+        <id>498edc69db41d810b8ae8d7e13961948</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>558edc69db41d810b8ae8d7e13961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</action>
+        <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Format output for work notes</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d18edc69db41d810b8ae8d7e13961953</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d18edc69db41d810b8ae8d7e13961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d18edc69db41d810b8ae8d7e13961953</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>118edc69db41d810b8ae8d7e13961966</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  try{
+  	var frmtOutput = 'Kill Process Request:&lt;br/&gt;';
+  	var rawInput = inputs.result;
+   
+    // Format the output to be used in work notes and be in courier font
+    
+    //frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;").replace(/ {1,}/g," ");
+  	frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;");
+  	var formatted1 = '[code]&lt;pre&gt;&lt;code&gt;' + frmtOutput + '&lt;/code&gt;&lt;/pre&gt;[/code]';
+  	outputs.formatresult = formatted1;
+  } catch (e) {
+    gs.info('Error formatting output: ' + e);
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d18edc69db41d810b8ae8d7e13961953</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e13961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d18edc69db41d810b8ae8d7e13961953"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d18edc69db41d810b8ae8d7e13961953</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>198edc69db41d810b8ae8d7e13961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>result</field>
+        <id>d18edc69db41d810b8ae8d7e13961953</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>998edc69db41d810b8ae8d7e13961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d18edc69db41d810b8ae8d7e13961953</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d18edc69db41d810b8ae8d7e13961953</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>d98edc69db41d810b8ae8d7e13961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d18edc69db41d810b8ae8d7e13961953^sys_idNOT INdd8edc69db41d810b8ae8d7e13961955"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">d18edc69db41d810b8ae8d7e13961953</model>
+        <model_id>d18edc69db41d810b8ae8d7e13961953</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d18edc69db41d810b8ae8d7e13961953</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>dd8edc69db41d810b8ae8d7e13961955</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d18edc69db41d810b8ae8d7e13961953^sys_idNOT IN5d8edc69db41d810b8ae8d7e1396195c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=49a99342-0a58-4534-8919-071859997598</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresult</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResult</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">d18edc69db41d810b8ae8d7e13961953</model>
+        <model_id>d18edc69db41d810b8ae8d7e13961953</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d18edc69db41d810b8ae8d7e13961953</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>5d8edc69db41d810b8ae8d7e1396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=858edc69db41d810b8ae8d7e13961923^sys_idNOT IN258edc69db41d810b8ae8d7e1396198b,298edc69db41d810b8ae8d7e1396198a,2d8edc69db41d810b8ae8d7e13961989,3dee2afddbbc5490b8ae8d7e1396198d,60ba6761dbb81490b8ae8d7e1396193a,60ba6761dbb81490b8ae8d7e1396193b,618edc69db41d810b8ae8d7e1396198b,658edc69db41d810b8ae8d7e1396198a,6d8edc69db41d810b8ae8d7e1396198b,79ee2afddbbc5490b8ae8d7e1396198d,7dee2afddbbc5490b8ae8d7e1396198c,a18edc69db41d810b8ae8d7e1396198a,a4ba6761dbb81490b8ae8d7e1396193c,a98edc69db41d810b8ae8d7e1396198b,ad8edc69db41d810b8ae8d7e1396198a,b1ee2afddbbc5490b8ae8d7e1396198e,b5ee2afddbbc5490b8ae8d7e1396198d,b9ee2afddbbc5490b8ae8d7e1396198c,e58edc69db41d810b8ae8d7e1396198b,e98edc69db41d810b8ae8d7e1396198a,ed8edc69db41d810b8ae8d7e13961989,f1ee2afddbbc5490b8ae8d7e1396198d,f5ee2afddbbc5490b8ae8d7e1396198c,fdee2afddbbc5490b8ae8d7e1396198d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>258edc69db41d810b8ae8d7e1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>298edc69db41d810b8ae8d7e1396198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>2d8edc69db41d810b8ae8d7e13961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>0a8452ed-ff70-4c55-b798-d2b4eb9aaba5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>3dee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
+        <sys_id>60ba6761dbb81490b8ae8d7e1396193a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>0a8452ed-ff70-4c55-b798-d2b4eb9aaba5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
+        <sys_id>60ba6761dbb81490b8ae8d7e1396193b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>618edc69db41d810b8ae8d7e1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>658edc69db41d810b8ae8d7e1396198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>6d8edc69db41d810b8ae8d7e1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>6a36829d-97a3-4d78-bd5e-0256378ebf98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>79ee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.svcname}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>7dee2afddbbc5490b8ae8d7e1396198c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.pid}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>a18edc69db41d810b8ae8d7e1396198a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-15 22:52:59</sys_created_on>
+        <sys_id>a4ba6761dbb81490b8ae8d7e1396193c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>6a36829d-97a3-4d78-bd5e-0256378ebf98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>a98edc69db41d810b8ae8d7e1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.pid}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>ad8edc69db41d810b8ae8d7e1396198a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>b1ee2afddbbc5490b8ae8d7e1396198e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.pid}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>b5ee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>b9ee2afddbbc5490b8ae8d7e1396198c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:39</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>e58edc69db41d810b8ae8d7e1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>e98edc69db41d810b8ae8d7e1396198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>ed8edc69db41d810b8ae8d7e13961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>f1ee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>f5ee2afddbbc5490b8ae8d7e1396198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>858edc69db41d810b8ae8d7e13961923</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-16 13:10:13</sys_created_on>
+        <sys_id>fdee2afddbbc5490b8ae8d7e1396198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923^sys_idNOT IN2a3f9ca9db41d810b8ae8d7e13961922,8d8edc69db41d810b8ae8d7e13961939,e63f9ca9db41d810b8ae8d7e1396191c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>force</element>
+        <help/>
+        <hint/>
+        <label>force kill</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_id>2a3f9ca9db41d810b8ae8d7e13961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>host</element>
+        <help/>
+        <hint/>
+        <label>host</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:36</sys_created_on>
+        <sys_id>8d8edc69db41d810b8ae8d7e13961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pid</element>
+        <help/>
+        <hint/>
+        <label>pid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_id>e63f9ca9db41d810b8ae8d7e1396191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923^sys_idNOT IN1d8edc69db41d810b8ae8d7e13961974,998edc69db41d810b8ae8d7e1396196e,ad8edc69db41d810b8ae8d7e1396197a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>formatresults</element>
+        <help/>
+        <hint/>
+        <label>formatResults</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>1d8edc69db41d810b8ae8d7e13961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_id>998edc69db41d810b8ae8d7e1396196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_id>ad8edc69db41d810b8ae8d7e1396197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=858edc69db41d810b8ae8d7e13961923^sys_idNOT IN5a4f50e9db41d810b8ae8d7e13961928"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5a4f50e9db41d810b8ae8d7e13961928","name":"plan"}}</plan>
+        <snapshot>494fdca9db41d810b8ae8d7e13961999</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5a4f50e9db41d810b8ae8d7e13961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:58</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Update Linux">03dea6fddbbc5490b8ae8d7e139619e1</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Specify "yes" in the "force kill" field if you want a -9 applied to the "kill" command</description>
+        <internal_name>kill_linux_process</internal_name>
+        <label_cache>[{"name":"{{action.host}}","label":"action➛host","type":"action","ref":""},{"name":"{{action.action}}","label":"action➛force kill","type":"action","ref":""},{"name":"{{action.svcname}}","label":"action➛pid","type":"action","ref":""},{"name":"{{action.pid}}","label":"action➛pid","type":"action","ref":""},{"name":"{{action.force}}","label":"action➛force kill","type":"action","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}","label":"step➛Kill Process➛Output","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].variable}}","label":"step➛Format output for work notes➛variable","type":"step","ref":""},{"name":"{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}","label":"step➛Format output for work notes➛formatResult","type":"step","ref":""},{"name":"{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}","label":"step➛Kill Process➛Error Message","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Kill Linux Process</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Kill Linux Process">858edc69db41d810b8ae8d7e13961923</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>654f10e9db41d810b8ae8d7e1396190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:54</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=654f10e9db41d810b8ae8d7e1396190a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=654f10e9db41d810b8ae8d7e1396190a"/>
+    <sys_element_mapping action="delete_multiple" query="id=654f10e9db41d810b8ae8d7e1396190a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>654f10e9db41d810b8ae8d7e1396190a</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e13961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>formatresults</field>
+        <id>654f10e9db41d810b8ae8d7e1396190a</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>f54f10e9db41d810b8ae8d7e13961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</table>
+        <value>{{step[2c4e809f-c7fb-430b-ace3-5bae3244b18b].formatresult}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>results</field>
+        <id>654f10e9db41d810b8ae8d7e1396190a</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>354f10e9db41d810b8ae8d7e13961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN254f10e9db41d810b8ae8d7e13961944,ad4f10e9db41d810b8ae8d7e1396194e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</action>
+        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Kill Process</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>254f10e9db41d810b8ae8d7e13961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=254f10e9db41d810b8ae8d7e13961944"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>214f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>2d4f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>694f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>a54f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>e14f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>750</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ed4f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">29ae9f2473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=254f10e9db41d810b8ae8d7e13961944"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>2d4f10e9db41d810b8ae8d7e1396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>e94f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>#!/bin/bash
+if [ {{action.force}} = "yes" ] ; then
+kill -9 {{action.pid}}
+else
+kill {{action.svcname}}
+fi</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>a14f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>694f10e9db41d810b8ae8d7e1396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>294f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ed4f10e9db41d810b8ae8d7e1396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>654f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>must_sudo</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ad4f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</action>
+        <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Format output for work notes</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ad4f10e9db41d810b8ae8d7e1396194e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ad4f10e9db41d810b8ae8d7e1396194e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ad4f10e9db41d810b8ae8d7e1396194e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>794f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  try{
+  	var frmtOutput = 'Kill Process Request:&lt;br/&gt;';
+  	var rawInput = inputs.result;
+   
+    // Format the output to be used in work notes and be in courier font
+    
+    //frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;").replace(/ {1,}/g," ");
+  	frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;");
+  	var formatted1 = '[code]&lt;pre&gt;&lt;code&gt;' + frmtOutput + '&lt;/code&gt;&lt;/pre&gt;[/code]';
+  	outputs.formatresult = formatted1;
+  } catch (e) {
+    gs.info('Error formatting output: ' + e);
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ad4f10e9db41d810b8ae8d7e1396194e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>b54f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ad4f10e9db41d810b8ae8d7e1396194e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ad4f10e9db41d810b8ae8d7e1396194e</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>result</field>
+        <id>ad4f10e9db41d810b8ae8d7e1396194e</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>f14f10e9db41d810b8ae8d7e13961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ad4f10e9db41d810b8ae8d7e1396194e</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ad4f10e9db41d810b8ae8d7e1396194e</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>354f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ad4f10e9db41d810b8ae8d7e1396194e^sys_idNOT IN294f10e9db41d810b8ae8d7e13961951"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">ad4f10e9db41d810b8ae8d7e1396194e</model>
+        <model_id>ad4f10e9db41d810b8ae8d7e1396194e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ad4f10e9db41d810b8ae8d7e1396194e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>294f10e9db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ad4f10e9db41d810b8ae8d7e1396194e^sys_idNOT INa54f10e9db41d810b8ae8d7e13961958"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=49a99342-0a58-4534-8919-071859997598</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresult</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResult</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">ad4f10e9db41d810b8ae8d7e1396194e</model>
+        <model_id>ad4f10e9db41d810b8ae8d7e1396194e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ad4f10e9db41d810b8ae8d7e1396194e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>a54f10e9db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN214f10e9db41d810b8ae8d7e1396193d,254f10e9db41d810b8ae8d7e1396190b,614f10e9db41d810b8ae8d7e13961937"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3afe5ffe-2ca9-4463-8c8d-6d43e750cd8d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>force</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>force kill</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</model>
+        <model_id>654f10e9db41d810b8ae8d7e1396190a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>214f10e9db41d810b8ae8d7e1396193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9d9bdd10-25ed-42b0-8298-8b248053a527</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>host</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>host</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</model>
+        <model_id>654f10e9db41d810b8ae8d7e1396190a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:54</sys_created_on>
+        <sys_id>254f10e9db41d810b8ae8d7e1396190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a7b3f337-28f6-4dc7-8fd3-bc2597af68fc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>pid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</model>
+        <model_id>654f10e9db41d810b8ae8d7e1396190a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>614f10e9db41d810b8ae8d7e13961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN354f10e9db41d810b8ae8d7e1396196b,354f10e9db41d810b8ae8d7e13961971,3d4f10e9db41d810b8ae8d7e13961964"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4a8ab61e-0b5c-48ef-86f1-a57df8ba7504</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresults</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResults</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</model>
+        <model_id>654f10e9db41d810b8ae8d7e1396190a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>354f10e9db41d810b8ae8d7e1396196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=4cd93066-0e35-4b23-9d53-048c03bea4bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">47e0e3a473332300673d94596bf6a7b3</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</model>
+        <model_id>654f10e9db41d810b8ae8d7e1396190a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>354f10e9db41d810b8ae8d7e13961971</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=a134142c-5893-4573-8564-0dba824c6f4f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">fab0a3a473332300673d94596bf6a70b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</model>
+        <model_id>654f10e9db41d810b8ae8d7e1396190a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>3d4f10e9db41d810b8ae8d7e13961964</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN254f10e9db41d810b8ae8d7e13961944,ad4f10e9db41d810b8ae8d7e1396194e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</action>
+        <cid>2e8560c3-09a0-4d3a-8573-af25cee8c95b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Kill Process</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>254f10e9db41d810b8ae8d7e13961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=254f10e9db41d810b8ae8d7e13961944"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>214f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>d71836e5db741490b8ae8d7e139619ab</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>2d4f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>/tmp</value>
+        <variable display_value="">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>694f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>a54f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>e14f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>254f10e9db41d810b8ae8d7e13961944</document_key>
+        <order>750</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ed4f10e9db41d810b8ae8d7e1396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">29ae9f2473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=254f10e9db41d810b8ae8d7e13961944"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>2d4f10e9db41d810b8ae8d7e1396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>e94f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>#!/bin/bash
+if [ {{action.force}} = "yes" ] ; then
+kill -9 {{action.pid}}
+else
+kill {{action.svcname}}
+fi</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>a14f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>694f10e9db41d810b8ae8d7e1396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>294f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ed4f10e9db41d810b8ae8d7e1396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>654f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>must_sudo</field>
+        <id>254f10e9db41d810b8ae8d7e13961944</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ad4f10e9db41d810b8ae8d7e1396194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Kill Linux Process">654f10e9db41d810b8ae8d7e1396190a</action>
+        <cid>2c4e809f-c7fb-430b-ace3-5bae3244b18b</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Format output for work notes</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>ad4f10e9db41d810b8ae8d7e1396194e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ad4f10e9db41d810b8ae8d7e1396194e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ad4f10e9db41d810b8ae8d7e1396194e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>794f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  try{
+  	var frmtOutput = 'Kill Process Request:&lt;br/&gt;';
+  	var rawInput = inputs.result;
+   
+    // Format the output to be used in work notes and be in courier font
+    
+    //frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;").replace(/ {1,}/g," ");
+  	frmtOutput += rawInput.replace(/(\r\n|\n|\r)/gm,"&lt;br/&gt;");
+  	var formatted1 = '[code]&lt;pre&gt;&lt;code&gt;' + frmtOutput + '&lt;/code&gt;&lt;/pre&gt;[/code]';
+  	outputs.formatresult = formatted1;
+  } catch (e) {
+    gs.info('Error formatting output: ' + e);
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ad4f10e9db41d810b8ae8d7e1396194e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>b54f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ad4f10e9db41d810b8ae8d7e1396194e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ad4f10e9db41d810b8ae8d7e1396194e</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>result</field>
+        <id>ad4f10e9db41d810b8ae8d7e1396194e</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>f14f10e9db41d810b8ae8d7e13961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ad4f10e9db41d810b8ae8d7e1396194e</table>
+        <value>{{step[2e8560c3-09a0-4d3a-8573-af25cee8c95b].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ad4f10e9db41d810b8ae8d7e1396194e</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>354f10e9db41d810b8ae8d7e13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ad4f10e9db41d810b8ae8d7e1396194e^sys_idNOT IN294f10e9db41d810b8ae8d7e13961951"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">ad4f10e9db41d810b8ae8d7e1396194e</model>
+        <model_id>ad4f10e9db41d810b8ae8d7e1396194e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ad4f10e9db41d810b8ae8d7e1396194e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>294f10e9db41d810b8ae8d7e13961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ad4f10e9db41d810b8ae8d7e1396194e^sys_idNOT INa54f10e9db41d810b8ae8d7e13961958"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=49a99342-0a58-4534-8919-071859997598</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>formatresult</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>formatResult</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Format output for work notes">ad4f10e9db41d810b8ae8d7e1396194e</model>
+        <model_id>ad4f10e9db41d810b8ae8d7e1396194e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ad4f10e9db41d810b8ae8d7e1396194e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>a54f10e9db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN314f10e9db41d810b8ae8d7e13961986,354f10e9db41d810b8ae8d7e13961985,3d4f10e9db41d810b8ae8d7e13961986,714f10e9db41d810b8ae8d7e13961985,794f10e9db41d810b8ae8d7e13961986,7d4f10e9db41d810b8ae8d7e13961985,b14f10e9db41d810b8ae8d7e13961987,b54f10e9db41d810b8ae8d7e13961986,b94f10e9db41d810b8ae8d7e13961985,f14f10e9db41d810b8ae8d7e13961986,f54f10e9db41d810b8ae8d7e13961985,fd4f10e9db41d810b8ae8d7e13961986"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>314f10e9db41d810b8ae8d7e13961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>354f10e9db41d810b8ae8d7e13961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.action}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>3d4f10e9db41d810b8ae8d7e13961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e13961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>0a8452ed-ff70-4c55-b798-d2b4eb9aaba5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5417f39e-ba3a-4bf1-8f38-9bb9083692cb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>794f10e9db41d810b8ae8d7e13961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>187ad043-0118-4972-92a6-573cf48779b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>213242ea-4603-4f66-abcb-94b3a2f0b573</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>7d4f10e9db41d810b8ae8d7e13961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>5837a28e-1e71-4957-aa78-98ce75567e55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ef372219-8133-46a6-9164-ba3a5f72a6bb</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>b14f10e9db41d810b8ae8d7e13961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>6a36829d-97a3-4d78-bd5e-0256378ebf98</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.pid}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>b54f10e9db41d810b8ae8d7e13961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ce5f2ff7-2127-4269-89b0-64c12e4670c6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.pid}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>b94f10e9db41d810b8ae8d7e13961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{force.pid}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>f14f10e9db41d810b8ae8d7e13961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>218afcf1-3217-4c9d-b8bb-9ba41c11eb52</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>f54f10e9db41d810b8ae8d7e13961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>38bc3376-345a-4c03-ac7a-87c3dfa2f366</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>654f10e9db41d810b8ae8d7e1396190a</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>62defff1-0311-455b-93dc-dc2a1137ff09</source_ui_id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>fd4f10e9db41d810b8ae8d7e13961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <transform_compositions>[{"id":"9d087f65b7333300cbfe8c78ee11a9f6","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="sanitize_bash_args">7f07f365b7333300cbfe8c78ee11a959</transform_definition_id>
+        <ui_id>eb62fc63-1796-4165-a43d-d24b71e74ece</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN2d4f10e9db41d810b8ae8d7e13961941,694f10e9db41d810b8ae8d7e13961910,6d4f10e9db41d810b8ae8d7e1396193b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>force</element>
+        <help/>
+        <hint/>
+        <label>force kill</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>2d4f10e9db41d810b8ae8d7e13961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>host</element>
+        <help/>
+        <hint/>
+        <label>host</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:54</sys_created_on>
+        <sys_id>694f10e9db41d810b8ae8d7e13961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pid</element>
+        <help/>
+        <hint/>
+        <label>pid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_id>6d4f10e9db41d810b8ae8d7e1396193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a^sys_idNOT IN714f10e9db41d810b8ae8d7e1396196a,714f10e9db41d810b8ae8d7e13961970,714f10e9db41d810b8ae8d7e13961976"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e1396196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>formatresults</element>
+        <help/>
+        <hint/>
+        <label>formatResults</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e13961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_id>714f10e9db41d810b8ae8d7e13961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
