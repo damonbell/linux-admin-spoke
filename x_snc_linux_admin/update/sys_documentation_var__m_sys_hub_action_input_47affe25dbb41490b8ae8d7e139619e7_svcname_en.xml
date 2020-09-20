@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="svcname" label="svcName" language="en" table="var__m_sys_hub_action_input_47affe25dbb41490b8ae8d7e139619e7">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>svcname</element>
+            <help/>
+            <hint/>
+            <label>svcName</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_47affe25dbb41490b8ae8d7e139619e7</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.ryan</sys_created_by>
+            <sys_created_on>2020-05-15 19:45:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cfaffe25dbb41490b8ae8d7e139619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>svcName</sys_name>
+            <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_47affe25dbb41490b8ae8d7e139619e7_svcname_en</sys_update_name>
+            <sys_updated_by>nick.ryan</sys_updated_by>
+            <sys_updated_on>2020-05-15 19:45:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

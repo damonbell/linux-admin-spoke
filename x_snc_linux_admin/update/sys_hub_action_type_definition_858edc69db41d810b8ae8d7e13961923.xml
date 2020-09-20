@@ -23,6 +23,7 @@
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>858edc69db41d810b8ae8d7e13961923</sys_id>
         <sys_mod_count>7</sys_mod_count>
@@ -30,6 +31,7 @@
         <sys_overrides/>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_858edc69db41d810b8ae8d7e13961923</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -37,7 +39,6 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=858edc69db41d810b8ae8d7e13961923"/>
     <sys_variable_value action="delete_multiple" query="document_key=858edc69db41d810b8ae8d7e13961923"/>
     <sys_element_mapping action="delete_multiple" query="id=858edc69db41d810b8ae8d7e13961923"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -93,11 +94,13 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>498edc69db41d810b8ae8d7e13961948</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -306,11 +309,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d18edc69db41d810b8ae8d7e13961953</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -461,11 +466,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd8edc69db41d810b8ae8d7e13961955</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -543,11 +550,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5d8edc69db41d810b8ae8d7e1396195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -625,11 +634,13 @@ fi</value>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>418edc69db41d810b8ae8d7e13961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -706,11 +717,13 @@ fi</value>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6a3f9ca9db41d810b8ae8d7e13961917</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -787,11 +800,13 @@ fi</value>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>aa3f9ca9db41d810b8ae8d7e1396191d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -871,11 +886,13 @@ fi</value>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5d8edc69db41d810b8ae8d7e1396196f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -954,11 +971,13 @@ fi</value>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d18edc69db41d810b8ae8d7e13961969</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -1037,11 +1056,13 @@ fi</value>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd8edc69db41d810b8ae8d7e13961975</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -1074,11 +1095,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>498edc69db41d810b8ae8d7e13961948</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -1287,11 +1310,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d18edc69db41d810b8ae8d7e13961953</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -1442,11 +1467,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd8edc69db41d810b8ae8d7e13961955</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -1524,11 +1551,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5d8edc69db41d810b8ae8d7e1396195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -1965,13 +1994,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2a3f9ca9db41d810b8ae8d7e13961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>force kill</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923_force_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:42</sys_updated_on>
         <url/>
@@ -1988,13 +2019,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8d8edc69db41d810b8ae8d7e13961939</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>host</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923_host_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:16:36</sys_updated_on>
         <url/>
@@ -2011,13 +2044,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e63f9ca9db41d810b8ae8d7e1396191c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>pid</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_858edc69db41d810b8ae8d7e13961923_pid_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:42</sys_updated_on>
         <url/>
@@ -2035,13 +2070,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1d8edc69db41d810b8ae8d7e13961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>formatResults</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923_formatresults_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
         <url/>
@@ -2058,13 +2095,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>998edc69db41d810b8ae8d7e1396196e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>results</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923_results_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:16:37</sys_updated_on>
         <url/>
@@ -2081,13 +2120,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:16:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ad8edc69db41d810b8ae8d7e1396197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_858edc69db41d810b8ae8d7e13961923_error_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:16:38</sys_updated_on>
         <url/>
@@ -2101,6 +2142,7 @@ fi</value>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5a4f50e9db41d810b8ae8d7e13961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2108,6 +2150,7 @@ fi</value>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2134,6 +2177,7 @@ fi</value>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>654f10e9db41d810b8ae8d7e1396190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -2141,6 +2185,7 @@ fi</value>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2148,7 +2193,6 @@ fi</value>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=654f10e9db41d810b8ae8d7e1396190a"/>
     <sys_variable_value action="delete_multiple" query="document_key=654f10e9db41d810b8ae8d7e1396190a"/>
     <sys_element_mapping action="delete_multiple" query="id=654f10e9db41d810b8ae8d7e1396190a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2204,11 +2248,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>254f10e9db41d810b8ae8d7e13961944</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2417,11 +2463,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ad4f10e9db41d810b8ae8d7e1396194e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2572,11 +2620,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>294f10e9db41d810b8ae8d7e13961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2654,11 +2704,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a54f10e9db41d810b8ae8d7e13961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2736,11 +2788,13 @@ fi</value>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>214f10e9db41d810b8ae8d7e1396193d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2817,11 +2871,13 @@ fi</value>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>254f10e9db41d810b8ae8d7e1396190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2898,11 +2954,13 @@ fi</value>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>614f10e9db41d810b8ae8d7e13961937</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -2982,11 +3040,13 @@ fi</value>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>354f10e9db41d810b8ae8d7e1396196b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3065,11 +3125,13 @@ fi</value>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>354f10e9db41d810b8ae8d7e13961971</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3148,11 +3210,13 @@ fi</value>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3d4f10e9db41d810b8ae8d7e13961964</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3185,11 +3249,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>254f10e9db41d810b8ae8d7e13961944</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3398,11 +3464,13 @@ fi</value>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ad4f10e9db41d810b8ae8d7e1396194e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3553,11 +3621,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>294f10e9db41d810b8ae8d7e13961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3635,11 +3705,13 @@ fi</value>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a54f10e9db41d810b8ae8d7e13961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
@@ -3872,13 +3944,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2d4f10e9db41d810b8ae8d7e13961941</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>force kill</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a_force_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
         <url/>
@@ -3895,13 +3969,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>694f10e9db41d810b8ae8d7e13961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>host</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a_host_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:54</sys_updated_on>
         <url/>
@@ -3918,13 +3994,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6d4f10e9db41d810b8ae8d7e1396193b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>pid</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_654f10e9db41d810b8ae8d7e1396190a_pid_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:55</sys_updated_on>
         <url/>
@@ -3942,13 +4020,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>714f10e9db41d810b8ae8d7e1396196a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>results</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a_results_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
         <url/>
@@ -3965,13 +4045,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>714f10e9db41d810b8ae8d7e13961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>formatResults</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a_formatresults_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
         <url/>
@@ -3988,13 +4070,15 @@ fi</value>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-27 18:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>714f10e9db41d810b8ae8d7e13961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Linux Admin Spoke" source="x_snc_linux_admin">7215b621db741490b8ae8d7e1396197a</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linux Admin Spoke">7215b621db741490b8ae8d7e1396197a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_654f10e9db41d810b8ae8d7e1396190a_error_en</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
         <sys_updated_on>2020-05-27 18:19:56</sys_updated_on>
         <url/>
